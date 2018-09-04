@@ -76,12 +76,18 @@ h2 {
   padding-top: 20px;
   list-style-type: disc;
   padding-left: 30px;
+  padding-bottom: 20px;
 }
 
 #small-product-bar{
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+.small-items-pic {
+  width: 76px;
+  height: 94px;
 }
 
 .small-aprons {
