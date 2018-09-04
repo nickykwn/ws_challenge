@@ -1,0 +1,30 @@
+.ws-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#logo-div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #333333;
+  overflow: hidden;
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+li {
+  display: inline;
+  color: #FAFAFA;
+}
+
+li:hover {
+  background-color: #111;
+}
