@@ -32,8 +32,10 @@ for (i = 0; i < coll.length; i++) {
     var content = this.nextElementSibling;
     if (content.style.maxHeight){
       content.style.maxHeight = null;
+      $('.active').text("EXPANDED");
     } else {
       content.style.maxHeight = content.scrollHeight + "px";
+      $('.active').text("COLLAPSED");
     }
   });
 }
