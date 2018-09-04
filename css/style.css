@@ -52,6 +52,7 @@
 #big-product-image {
   float: left;
   width: 60%;
+  text-align: center;
 }
 
 .big-pic {
@@ -74,4 +75,15 @@ h2 {
 #prod-details {
   padding-top: 20px;
   list-style-type: disc;
+  padding-left: 30px;
+}
+
+#small-product-bar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.small-aprons {
+  display: inline;
 }
