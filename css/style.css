@@ -98,6 +98,15 @@ h2 {
   cursor: pointer;
 }
 
+#addToCart {
+  padding-bottom: 20px;
+}
+
+#quantity {
+  line-height: 25px;
+  font-size: 13px;
+}
+
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -138,4 +147,20 @@ h2 {
     color: #000;
     text-decoration: none;
     cursor: pointer;
+}
+
+.collapsible {
+  color: black;
+  cursor: pointer;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
 }
