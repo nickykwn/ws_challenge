@@ -31,6 +31,7 @@ $(document).ready(function () {
     $("#product-d").removeClass('border-box');
     $("#product-a").addClass('border-box');
     $('#big-image')[0].src="./images/product-large-a.jpg";
+    $('.item-title').html("Willians-Sonoma Classic Apron, French Blue");
   })
 
   $("#product-b").click(function(){
@@ -39,6 +40,7 @@ $(document).ready(function () {
     $("#product-d").removeClass('border-box');
     $("#product-b").addClass('border-box');
     $('#big-image')[0].src="./images/product-large-b.jpg";
+    $('.item-title').html("Willians-Sonoma Classic Apron, Dark Stripes");
   })
   $("#product-c").click(function(){
     $("#product-a").removeClass('border-box');
@@ -46,6 +48,7 @@ $(document).ready(function () {
     $("#product-d").removeClass('border-box');
     $("#product-c").addClass('border-box');
     $('#big-image')[0].src="./images/product-large-c.jpg";
+    $('.item-title').html("Willians-Sonoma Classic Apron,, Green Stripes");
   })
   $("#product-d").click(function(){
     $("#product-a").removeClass('border-box');
@@ -53,6 +56,7 @@ $(document).ready(function () {
     $("#product-c").removeClass('border-box');
     $("#product-d").addClass('border-box');
     $('#big-image')[0].src="images/product-large-d.jpg";
+    $('.item-title').html("Willians-Sonoma Classic Apron, Red Stripes");
   })
 
   $(".arrow-collapsed").click(function(){
