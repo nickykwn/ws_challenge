@@ -158,13 +158,21 @@ h2 {
   font-size: 15px;
 }
 
-.active {
-  content: "\2212";
-}
-
 .content {
   padding: 0 18px;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: inline;
+}
+
+.border-box {
+  border: 2px solid black;
 }

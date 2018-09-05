@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Williams Sonoma</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="scripts/scripts.js" type="text/javascript" charset="utf-8" async defer></script>
@@ -33,12 +34,12 @@
       </ul>
       <div id="center-div">
         <div id="big-product-image">
-          <img src="images/product-large-a.jpg" class="big-pic" alt="product-a-big">
+          <img id="big-image" src="images/product-large-a.jpg" class="big-pic" alt="product-a-big">
           <ul id="small-product-bar">
-            <li class="small-aprons"><img src="images/product-small-a.jpg" class="small-items-pic" alt="product-small-a"</li>
-            <li class="small-aprons"><img src="images/product-small-b.jpg" class="small-items-pic" alt="product-small-b"</li>
-            <li class="small-aprons"><img src="images/product-small-c.jpg" class="small-items-pic" alt="product-small-c"</li>
-            <li class="small-aprons"><img src="images/product-small-d.jpg" class="small-items-pic" alt="product-small-d"</li>
+            <li class="small-aprons"><img id="product-a" src="images/product-small-a.jpg" class="small-items-pic" alt="product-small-a"</li>
+            <li class="small-aprons"><img id="product-b" src="images/product-small-b.jpg" class="small-items-pic" alt="product-small-b"</li>
+            <li class="small-aprons"><img id="product-c" src="images/product-small-c.jpg" class="small-items-pic" alt="product-small-c"</li>
+            <li class="small-aprons"><img id="product-d" src="images/product-small-d.jpg" class="small-items-pic" alt="product-small-d"</li>
           </ul>
         </div>
         <div id="desc-text">
@@ -62,17 +63,16 @@
             </div>
           </div>
           <div id="collapsible-expanded">
-            <p>Collapsible Set:</p>
-            <button class="collapsible"><img src="images/arrow-collapsed.png" class="arrow">COLLAPSED</img></button>
-            <div class="content">
+            <img src="images/arrow-collapsed.png" id="collapsed1" class="arrow-collapsed collapsible">COLLAPSED</img>
+            <div id="content1" style="display:none">
               <p>This section is expanded. This section can be collapsed by clicking on the "Expanded" text.</p>
             </div>
-            <button class="collapsible"><img src="images/arrow-collapsed.png" class="arrow">COLLAPSED</img></button>
-            <div class="content">
+            <img src="images/arrow-collapsed.png" id="collapsed2" class="arrow-collapsed collapsible">COLLAPSED</img>
+            <div id="content2" style="display:none">
               <p>This section is expanded. This section can be collapsed by clicking on the "Expanded" text.</p>
             </div>
-            <button class="collapsible"><img src="images/arrow-collapsed.png" class="arrow">COLLAPSED</img></button>
-            <div class="content">
+            <img src="images/arrow-collapsed.png" id="collapsed3" class="arrow-collapsed collapsible">COLLAPSED</img>
+            <div id="content3" style="display:none">
               <p>This section is expanded. This section can be collapsed by clicking on the "Expanded" text.</p>
             </div>
           </div>
