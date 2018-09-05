@@ -57,6 +57,7 @@ $(document).ready(function () {
 
   $(".arrow-collapsed").click(function(){
     $("#content1").toggle();
+    $("#collapsed1").toggleClass('rotate-on');
   })
 
 // var coll = document.getElementsByClassName("collapsible");
